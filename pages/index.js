@@ -1,10 +1,9 @@
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
 		<>
-			<h1 className={styles.title}>
+			<h1>
 			Welcome to Polldi
 			</h1>
 			<Link href="/add"><a>New Poll</a></Link>
